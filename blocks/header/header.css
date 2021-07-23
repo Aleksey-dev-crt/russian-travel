@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 28px 48px 0;
+}
+
+@media (max-width: 800px) {
+  .header {
+    padding: 28px 24px 0;
+  }
+}
+
+@media (max-width: 510px) {
+  .header {
+    padding: 16px 16px 0;
+  }
+}

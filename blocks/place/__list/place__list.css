@@ -1,0 +1,20 @@
+.place__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  row-gap: 80px;
+}
+
+@media (max-width: 800px) {
+  .place__list {
+    row-gap: 73px;
+
+  }
+}
+
+@media (max-width: 510px) {
+  .place__list {
+    row-gap: 50px;
+  }
+}

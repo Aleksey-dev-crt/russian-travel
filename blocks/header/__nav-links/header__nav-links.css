@@ -1,0 +1,14 @@
+.header__nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 77px;
+  list-style: none;
+}
+
+@media (max-width: 510px) {
+  .header__nav-links {
+    width: 62px;
+  }
+}
