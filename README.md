@@ -16,4 +16,4 @@ _Данный проект представляет собой веб стран
 
 **Ссылка на страницу**
 
-- [Ссылка на страницу](https://aleksey-dev-crt.github.io/russian-travel/index.html)
+- [Путешествие по России](https://aleksey-dev-crt.github.io/russian-travel/index.html)
