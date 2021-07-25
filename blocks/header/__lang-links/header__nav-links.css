@@ -1,4 +1,4 @@
-.header__nav-links {
+.header__lang-links {
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 510px) {
-  .header__nav-links {
+  .header__lang-links {
     width: 62px;
   }
 }

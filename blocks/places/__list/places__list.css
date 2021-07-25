@@ -1,4 +1,4 @@
-.place__list {
+.places__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -7,14 +7,14 @@
 }
 
 @media (max-width: 800px) {
-  .place__list {
+  .places__list {
     row-gap: 73px;
 
   }
 }
 
 @media (max-width: 510px) {
-  .place__list {
+  .places__list {
     row-gap: 50px;
   }
 }
