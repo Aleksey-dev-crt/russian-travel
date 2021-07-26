@@ -1,4 +1,4 @@
-.cover__overlay {
+.cover__background {
   position: relative;
   width: 100%;
   min-height: 740px;
@@ -14,7 +14,7 @@
   gap: 32px;
 }
 
-.cover__overlay::before {
+.cover__background::before {
   content: "";
   position: absolute;
   top: 0;
@@ -25,24 +25,24 @@
   transition: background-color 0.3s linear;
 }
 
-.cover__overlay:hover::before {
+.cover__background:hover::before {
   background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media (max-width: 1100px) {
-  .cover__overlay {
+  .cover__background {
     min-height: 640px;
   }
 }
 
 @media (max-width: 800px) {
-  .cover__overlay {
+  .cover__background {
     min-height: 480px;
   }
 }
 
 @media (max-width: 510px) {
-  .cover__overlay {
+  .cover__background {
     min-height: 200px;
     gap: 16px;
   }
